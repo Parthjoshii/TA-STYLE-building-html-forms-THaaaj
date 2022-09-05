@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* General Styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1;
+    background: rgba(255, 100, 88, 0.8) url(assets/bg-intro-desktop.png);
+    background-size: cover
+}
+.container {
+    margin: 50px auto;
+    max-width: 1200px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Main */
+.form-container {
+    width: 45%;
+}
+.hero-info {
+    max-width: 45%;
+}
+.hero-info h1 {
+    font-size: 56px;
+    color: white;
+    font-weight: 700;
+}
+.hero-info p {
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 25px 0;
+    max-width: 100%;
+    box-shadow: 0 5px rgba(0, 0, 0,0.3);
+}
+.trial {
+    padding: 20px 60px;
+    background-color: #5d54a3;
+    color: white; 
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px rgba(0, 0, 0,0.3);
+}
+.trial small {
+    font-weight: 700;
+}
+.form input,button {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+.form input:hover {
+    border: #5d54a3 1px solid;
+}
+.form button {
+    background-color: #37cc8a;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 2px 2px black;
+}
+.form button:hover {
+    color: #5d54a3;
+}
+.form p {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+.form a {
+    color:rgb(255, 100, 88);
+    text-decoration: none;
+}
